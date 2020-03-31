@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(75, 90, 179);
+}
+
+// Navbar
+.navbar-brand {
+    img {
+        max-height: 40px;
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            font-family: viga;
+            color: #071c4d;
+
+            &:acvtive {
+                font-weight: bold;
+                color: #ad35b8 !important;
+            }
+        }
+    }
+}
+// End Navbar
+
+// Header
+header {
+    padding: 180px 0px 165px;
+    background-image: url('/images/jumbotron.png');
+    background-size: cover;
+
+    h1 {
+        font-family: viga;
+        color: white;
+    }
+}
+
+.btn-get-started {
+    font-family: viga;
+    background-color: #ad35b8;
+    color: #ffffff;
+
+    &:hover {
+        background-color: #071c4d;
+        color: #ffffff;
+    }
+}
+// End Header
+
+// Statistic
+.section-stats {
+    margin-top: -50px;
+
+    .stats-detail {
+        padding: 5px;
+        background-color: #ffffff;
+        text-align: center;
+        font-family: viga;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+}
+// End Statistic
